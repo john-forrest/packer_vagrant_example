@@ -8,4 +8,4 @@ See https://developer.hashicorp.com/packer/integrations/hashicorp/vagrant/latest
 - vagrant ssh
 
 This assumes there is no box actually running (use "vagrant box list" and
-"vagrant status" to check if needs).
+"vagrant status" to check if needs). Also if rerunning use "package build --force .".
